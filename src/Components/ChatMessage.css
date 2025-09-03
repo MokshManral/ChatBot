@@ -1,28 +1,37 @@
 .chat-message-user {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: end;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .chat-message-robot {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: start;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .chat-message-text {
-  font-size: 12px;
-  margin: 10px 0px;
-  padding: 10px;
+  font-size: 14px;
+  padding: 10px 15px;
   background: rgb(245, 245, 245);
   border-radius: 10px;
   max-width: 300px;
 }
 
+.chat-time{
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgb(154, 154, 154);
+}
+
 .chat-message-profile {
-  width: 50px;
+  width: 40px;
+  border-radius: 40px;
+  object-fit: cover;
 }
 
 .welcome-message {

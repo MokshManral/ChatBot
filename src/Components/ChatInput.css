@@ -1,10 +1,17 @@
-.send-button {
-  padding: 12px 30px;
-  color: white;
-  background-color: rgb(59, 178, 98);
+.send-button, .clear-button {
+  padding: 12px 25px;
   border: none;
   margin-left: 10px;
   border-radius: 12px;
+}
+
+.send-button{
+  background-color: rgb(59, 178, 98);
+  color: white;
+}
+
+.clear-button{
+  background-color: rgb(228, 228, 228);
 }
 
 .input-box {
